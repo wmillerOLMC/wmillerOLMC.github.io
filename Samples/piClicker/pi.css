@@ -8,4 +8,9 @@ div{
 	border:2px solid black;
 	border-radius:10px;
 	margin:auto;
+	box-shadow:0 4px 6px rgba(0,0,0,0.1);
+	transition:background-color 0.1s, transform 0.1s;
+}
+.playing{
+	background-color:#537353;
 }
