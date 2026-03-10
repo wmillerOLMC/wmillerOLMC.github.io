@@ -7,7 +7,7 @@ var pi=parseFloat(piSpan.innerHTML);
 var clicks=0;
 function addTerm(){
 	clicks=clicks+1;
-	term=parseFloat(4*((-1)**clicks)/(2*clicks+1));//clicks is incremented to get next term
+	term=parseFloat(4*((-1)**clicks)/(2*clicks+1));
 	pi=pi+term
 	piSpan.innerHTML=pi
 	termSpan.innerHTML=term;
